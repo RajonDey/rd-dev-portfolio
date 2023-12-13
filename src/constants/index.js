@@ -8,18 +8,18 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  nextjs,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  bootstrap,
   fiverr,
   sjinnovation,
-  carrent,
-  jobit,
-  tripguide,
+  clicks,
+  coinic,
+  LifeCommits,
   threejs,
 } from "../assets";
 
@@ -79,12 +79,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -105,10 +109,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -144,93 +144,97 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Very professional. Answer exactly for what I ask for and did a job that was more than expected.. Great communication fast reply. The best is that this guy helped a lot after he finished the job and did everything he can to keep me satisfied. :)",
+    name: "Idodamti",
+    designation: "Client",
+    company: "Israel",
+    image: "https://randomuser.me/api/portraits/men/8.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Our company continue to use this provider because this providers is the best. We never had not one single issue and everything is always smooth, done on time and professional. If you want quality service, done on time, and within budget, this is the provider to choose. Simply the best.",
+    name: "Smith",
+    designation: "Client",
+    company: "Bahamas",
+    image: "https://randomuser.me/api/portraits/women/7.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "My first project with Rajon and extremely happy about his work. Project delivered before deadline, completed as i requested. Top developer A+. Recommend to all. Look forward to further collaboration.",
+    name: "Geopes",
+    designation: "Client",
+    company: "Ireland",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Clicks",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Clicks, a social media app created with React and Sanity, for my learning purpose only! I enjoyed doing this and learned a lot. Anyway, I practiced it from the JS Mastery Channel, and I highly recommend you all to check this out!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Sanity",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: clicks,
+    source_code_link: "https://github.com/RajonDey/clicks-project",
   },
   {
-    name: "Trip Guide",
+    name: "Life Commits",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "LifeCommits, a vibrant community dedicated to personal growth, achievement, and inspiration. Join us on a transformative journey as you make meaningful commitments, achieve milestones, and inspire others along the way. Together, lets commit, achieve, and inspire a life of purpose and fulfillment.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: LifeCommits,
+    source_code_link: "https://github.com/RajonDey/LifeCommit",
+  },
+  {
+    name: "Coinic",
+    description:
+      "Web 3.0 paves the way for a future in which different people and machines can interact with data, value, and other counterparties without the involvement of third parties. It's so trendy and exciting that, I can't control myself to give it a try",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Alchemy",
         color: "pink-text-gradient",
       },
+      {
+        name: "Hardhat",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coinic,
+    source_code_link: "https://github.com/RajonDey/coinic-project",
   },
 ];
 
