@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  cms,
+  email,
+  react,
+  uiux,
   javascript,
   typescript,
   html,
@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  fiverr,
+  sjinnovation,
   carrent,
   jobit,
   tripguide,
@@ -43,19 +41,19 @@ export const navLinks = [
 const services = [
   {
     title: "HTML Email Developer",
-    icon: creator,
+    icon: email,
   },
   {
     title: "UI/UX Developer",
-    icon: web,
+    icon: uiux,
   },
   {
     title: "React & NextJs Developer",
-    icon: mobile,
+    icon: react,
   },
   {
     title: "CMS Web Developer",
-    icon: backend,
+    icon: cms,
   },
 ];
 
@@ -118,8 +116,8 @@ const experiences = [
   {
     title: "Freelance Developer",
     company_name: "Fiverr & PPH",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: fiverr,
+    iconBg: "#61B134",
     date: "January 2015 - December 2019",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -131,35 +129,9 @@ const experiences = [
   {
     title: "Module Lead (UI/UX)",
     company_name: "SJ Innovation Llc.",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: sjinnovation,
+    iconBg: "#5873B7",
     date: "May 2019 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

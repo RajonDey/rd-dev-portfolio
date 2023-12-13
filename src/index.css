@@ -44,9 +44,9 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: "#85a3e0";
+  background: linear-gradient(90.13deg, #85a3e0 1.9%, #ffafc5 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #85a3e0 1.9%, #ffafc5 97.5%);
 }
 
 .orange-text-gradient {
@@ -203,7 +203,7 @@
   }
 }
 
-.section-title{
+.section-title {
   position: relative;
 }
 .section-title:before {
@@ -268,4 +268,8 @@
     color-stop(65%, #e0e0e0),
     color-stop(100%, #fff)
   );
+}
+
+.vertical-timeline::before {
+  background: #000000 !important;
 }
