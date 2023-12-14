@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import cms from "./cms-dev.png";
 import email from "./email-dev.png";
 import react from "./react-dev.png";
