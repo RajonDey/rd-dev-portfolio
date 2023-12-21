@@ -120,10 +120,10 @@ const experiences = [
     iconBg: "#61B134",
     date: "January 2015 - December 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively searching and bidding on new projects by understanding and responding to specific marketplace demands.",
+      "Onboarding clients by gathering all the requirements via multiple consultation sessions, and initiating the project by giving proper estimation.",
+      "Developed website and web applications with different technologies like WordPress, Shopify, Wix, and Squarespace, and mostly from scratch by HTML, CSS, and JS.",
+      "Ensuring the delivery of high-quality, fully-tested projects, and occasionally managing the deployment of these websites on client servers.",
     ],
   },
   {
@@ -133,10 +133,10 @@ const experiences = [
     iconBg: "#5873B7",
     date: "May 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading and estimating projects using a deep understanding of ReactJs/NextJs and other related technologies to develop and maintain websites and web applications.",
+      "Collaborating with cross-functional teams, including project managers, to understand and define project requirements. This occasionally involves participating in client meetings to comprehend complex needs.",
+      "Working closely with the Quality Assurance (QA) team to ensure the delivery of error-free projects.",
+      "Actively participating in code reviews, and providing constructive feedback to fellow developers to foster continuous improvement and knowledge sharing.",
     ],
   },
 ];
